@@ -32,3 +32,7 @@ commit"
 -- git config --global user.email "alfonso.garcia.info@gmail.com" esto nos servira para saber quien fue el que 
 edito el commit.
 
+empezare motivandome mas cada dia necesitamos tambien hacer ejercicio mi amigo porfavor hay que moderar lo que 
+comemos vamos por las 200 libras se que podemos 
+
+100 burpess al dia si se puede
