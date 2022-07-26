@@ -8,4 +8,27 @@ QUIERO CRECER MUCHO Y HOY PIENZO DEDICAR AL MENOS UNAS 4 HORAS A ESTUDIAR Y ESPE
 
 LO ESTOY LOGRANDO ESTOY ESTUDIANDO JEJEJE
 
+Bueno aquie estamos actualizando ... retomando todo lo aprendido este dia 25 de Julio de 2022
+
+-- sabemos que para saber lo que ha pasado en un Documento usamos el comando Git log
+
+-- para analizar las diferencias usamos Git diff [ codigo 1 de los commits a comparar] [codigo 2 de los commits a 
+comparar]
+
+-- para ver los cambios que han ocurrido en un commit usamos git show
+
+-- para agregar un commit al modo espera usamos git add [nombre del archivo].extension
+
+-- si queremos agregar al la lista de espera para commit una carpeta y no solo el archivo usamos git add .
+
+-- para remover del cache o stages usamos git rm --cached [nombre del archivo].extencion
+
+-- para saber el estado de Nuestro commit usamos git status
+
+- si ya vamos a mandar el commit o ya estamos seguros de lo que tenemos solo usamos git commit -m "mensaje del 
+commit"
+
+--si aun no se configura el entorno de git usaremos los comandos git config --global user.name "Luis Alfonso"
+-- git config --global user.email "alfonso.garcia.info@gmail.com" esto nos servira para saber quien fue el que 
+edito el commit.
 
