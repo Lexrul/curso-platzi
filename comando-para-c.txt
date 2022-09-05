@@ -1,0 +1,2 @@
+este es el comando basico para poder crear ejecutar y editar un archiovo cpp
+
