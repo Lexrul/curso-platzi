@@ -19,7 +19,7 @@ comparar]
 
 -- para agregar un commit al modo espera usamos git add [nombre del archivo].extension
 
--- si queremos agregar al la lista de espera para commit una carpeta y no solo el archivo usamos git add .
+-- si queremos agregar a la lista de espera para commit una carpeta y no solo el archivo usamos git add .
 
 -- para remover del cache o stages usamos git rm --cached [nombre del archivo].extencion
 
@@ -33,7 +33,16 @@ commit"
 edito el commit.
 
 empezare motivandome mas cada dia necesitamos tambien hacer ejercicio mi amigo porfavor hay que moderar lo que 
-comemos vamos a por las 200 libras se que podemos .. actualmente estamos en 245 Libras la meta son 10 Lbs menos por
+comemos vamos a por las 200 libras se que podemos .. actualmente estamos en 245 Libras la meta son 5 Lbs menos por
 semana se que es mucho pero se puede full keto.. 
 
 100 burpess al dia si se puede
+
+Bueno aqui estamos retomando desde el dia 5 de Septiembre de 2022 al parecer me toma mucho darle continuidad a las cosas
+hoy estaremos viendo como funcional el regreso en lineas temporales de Git
+
+-- git checkout : funciona de la siguiente manera .. nos permite desplazarnos entre las ramas ya creadas
+--cambia y restaura los archivos del arbol de trabajo y se usa de la siguiente manera git checkout [id del commit en especifico] [nombre del archivo] y tendremos la version
+del commit que mandemos a llamar; si queremos actualizar solo debemos de usar git add . esto modifica toda la rama principal borrando todos los datos posteriores 
+en caso de no querer eso solo no hacemos commit y usamos el llamdo a la rama Master y el nombre del archivo para obtener la version mas reciente del trabajo
+ejemplo de esto seria git checkout master [nombre del archivo].extencion 
