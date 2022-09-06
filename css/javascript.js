@@ -1,5 +1,7 @@
-esta es una prueba de lo que se puede hacer con un documento en rama cabezera que es una rama que nosotros creamos
-es una rama secundaria 
-
-
-acabalos Donna Poulsen 
+function interruptor(elemID){
+    var elem=document.getElementById(elemID);
+    if(elem.style.display=='block'){
+    elem.style.display='none';
+    }else{elem.style.display='block';}
+    }
+    
