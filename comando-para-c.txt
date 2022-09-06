@@ -1,3 +1,5 @@
 este es el comando basico para poder crear ejecutar y editar un archiovo cpp
 
 g++ -o [nombre del archivo a ejecutar] [nombre del archivo ejecutuble que resultara]
+
+Nuevos datos para agregar una nueva linea y hacer el merge
