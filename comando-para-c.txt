@@ -1,4 +1,10 @@
 este es el comando basico para poder crear ejecutar y editar un archiovo cpp
 
+<<<<<<< HEAD
 este comando debe de usarse siempre para el bien
 
+=======
+g++ -o [nombre del archivo a ejecutar] [nombre del archivo ejecutuble que resultara]
+
+Nuevos datos para agregar una nueva linea y hacer el merge
+>>>>>>> cabecera
