@@ -45,3 +45,20 @@ podemos observar que master no servira por eso lo cambiamos por la cabecera de g
 y ahora si una vez todo junto podremos guardar de forma normal en el repositorio en la nube de github con el siguiente comando
 
 git push origin master:main
+
+
+podemos ahorrarnos errores renombrando la Rama principal de nuestro repositorio en local que se llama master usando el siguiente comando
+
+git branch -M main
+
+Pasos para crear un token de acceso personal.
+
+Desde el 2022 GitHub ya no deja hacer el push con la contraseña del propio GitHub, para esto tenemos que crear un token, y este token es la contraseña que vamos a colocar cuando nos pida clave
+
+Seguir la secuencia: Ingresamos a nuestra cuenta de GitHub.
+
+Buscamos Settings
+Click en Developer settings
+Click en Personal access tokens
+Click en Generate new token aquí se puede colocar un nombre, la fecha de expiración.
+Tildar en repo y luego click en el botón verde Generate token
