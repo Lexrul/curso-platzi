@@ -25,3 +25,23 @@ git log --grep=“INVIE” –i: Busca los commits que cumplan sin importar may�
 git log – index.html: Busca los commits en un archivo en específico.
 git log -S “Por contenido”: Buscar los commits con el contenido dentro del archivo.
 git log > log.txt: guardar los logs en un archivo txt
+
+git y github tienen diferentes ramas principales por el hecho de que el lenguaje resulta
+ofensivo al usar : master = maestro, slave = esclavo por eso github decidio cambiar el termino a [main] dando como resultado confictos para poder solucionarlos veremos a continuacion como es que se hacia normalmente vs la opcion nueva para subir archivos directo de local al repo en la Nube
+
+git remote add origin [URL]
+este comando nos permite traer un repositorio nuestro en github a nuestro proyecto local.
+
+estos pasos son para verificar que el repositorio este guardado en nuestro Local staging
+
+git remote = nos dice si ya tenemos disponible la nueva rama origin.
+git remote -v = nos sirve para tener una lista detallada de si podemos hacer fetch y push.
+
+para poder traer la version mas resiente del repositorio y hacer un merge evitando los problemas que ocacionara el que 2 versiones diferentes esten corriendo al mismo tiempo usaremos:
+
+git pull origin master [Main] --allow-unrelated-histories
+podemos observar que master no servira por eso lo cambiamos por la cabecera de github main
+
+y ahora si una vez todo junto podremos guardar de forma normal en el repositorio en la nube de github con el siguiente comando
+
+git push origin master:main
