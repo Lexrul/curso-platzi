@@ -45,6 +45,8 @@ podemos observar que master no servira por eso lo cambiamos por la cabecera de g
 y ahora si una vez todo junto podremos guardar de forma normal en el repositorio en la nube de github con el siguiente comando
 
 git push origin master:main
+si cambiamos el nombre de la rama Master a main no hace falta usar el master:main puede quedar de esta manera
+---->> git push origin main
 
 
 podemos ahorrarnos errores renombrando la Rama principal de nuestro repositorio en local que se llama master usando el siguiente comando
