@@ -1,5 +1,5 @@
-function interruptor(elemID){
-    var elem=document.getElementById(elemID);
+function interruptor(onof){
+    var elem=document.getElementById(onof);
     if(elem.style.display=='block'){
     elem.style.display='none';
     }else{elem.style.display='block';}
