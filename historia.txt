@@ -46,3 +46,23 @@ hoy estaremos viendo como funcional el regreso en lineas temporales de Git
 del commit que mandemos a llamar; si queremos actualizar solo debemos de usar git add . esto modifica toda la rama principal borrando todos los datos posteriores 
 en caso de no querer eso solo no hacemos commit y usamos el llamdo a la rama Master y el nombre del archivo para obtener la version mas reciente del trabajo
 ejemplo de esto seria git checkout master [nombre del archivo].extencion 
+
+retomando el dia 8 de octubre desde hoy vamos con todo se que me incumplo mucho pero deberia de darme verguenza el ver que indiciplinado soy ... hoy he olvidado el como se hace el git reset y tendre que estudiarlo
+nuevamente porque me da pena el ver en lo que no me he convertido y que aun no alcanzo mis metas y propositos pero trataremos de mejorar
+
+agregare lo que seria la clase de hoy que son como crear una llave ssh en la pc y llevarla a github para que jamas pida password nuevamente al hacer push o pull ... debemos de llevar la llave publica a nuestro github
+esta se encuentra en homme o la siguiente direccion ~/.ssh/id_rsa.pub la abrimos con VScode y la copiamos y pegamos en github
+
+primero que nada debemos de poscionarnos en la raiz de nuestra pc es decir en nuestro home ~
+
+luego debemos insertar el siguiente comando ssh-keygen -t rsa -b 4096 -C "[aqui agregamos nuestro email]"
+
+una vez creada nos dira si el directorio es el correcto y aceptamos si es asi y luego nos dira si queremos incluir contraseña de seguridad extra ... es una buena practica el hacerlo asi que si.
+
+en windows y linux la manera de agregar la lave al servidor de llaves SSH es la misma por lo que primero debemos de evaluar que este este corriendo usando el siguiente comando :
+
+eval $(ssh-agent -S) este nos debera arrojar si esta corriendo y tambien nos dira su PID o el numero que ocupa en el proceso confirmando esto haremos lo siguiente.
+
+vamos a gregar la llave al servidor de llaves con el siguiente comando : ssh-add ~/.ssh/id_rsa
+
+listo con esto ya deberiamos de poder terner funcionando la llave privada y publica de la pc con github.
