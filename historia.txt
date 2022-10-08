@@ -66,3 +66,7 @@ eval $(ssh-agent -S) este nos debera arrojar si esta corriendo y tambien nos dir
 vamos a gregar la llave al servidor de llaves con el siguiente comando : ssh-add ~/.ssh/id_rsa
 
 listo con esto ya deberiamos de poder terner funcionando la llave privada y publica de la pc con github.
+
+para cambiar el modo que veniamos usando que es el http y quedarnos con el SSH debemos de hacer el cambio siguiente o haber iniciado usando el SSH :
+
+git remote set-url origin [url del repositorio en git ssh]
