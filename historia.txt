@@ -59,7 +59,7 @@ luego debemos insertar el siguiente comando ssh-keygen -t rsa -b 4096 -C "[aqui 
 
 una vez creada nos dira si el directorio es el correcto y aceptamos si es asi y luego nos dira si queremos incluir contraseña de seguridad extra ... es una buena practica el hacerlo asi que si.
 
-en windows y linux la manera de agregar la lave al servidor de llaves SSH es la misma por lo que primero debemos de evaluar que este este corriendo usando el siguiente comando :
+en windows y linux la manera de agregar la llave al servidor de llaves SSH es la misma por lo que primero debemos de evaluar que este este corriendo usando el siguiente comando :
 
 eval $(ssh-agent -S) este nos debera arrojar si esta corriendo y tambien nos dira su PID o el numero que ocupa en el proceso confirmando esto haremos lo siguiente.
 
@@ -75,3 +75,32 @@ git remote set-url origin [url del repositorio en git ssh]
 edicion nueva de la cabezera de header..
 
 veremos como subimos nuevas cabeceras al repocitorio
+
+miercoles 12 de octubre hoy se deberia de pagar el internet [ retomando el curso de control de versiones de git y git hub]
+
+hoy veremos lo que son los tags como crearlos y como borrarlos aparte aprenderemos a crear alias en nuestro entorno de git.
+
+un ejemplo de para que sirve un alias es para poder acortar un comando en especifico que seria muy largo de escribir y en una sola palabra tendria el mismo resultado por ejemplo;
+
+git log --all --graph --decorate --oneline este comando nos permitiria ver todo el log o registro de nuestro proyecto de forma ordenada y bonita pero es algo largo para ello encapsularemos el comando con
+sus atributos con el siguiente alias arbolito="git log --all --graph --decorate --oneline" de esta forma obtendremos un alias corto que con una sola palabra ejecutara el comando con sus atributos.
+
+pero el alias solo durara una sesion si se quiere hacer permanente ya sea para un solo proyecto o de forma global para siempre usarlo deberiamos de seguir las siguiente instrucciones:
+
+git config alias.arbolito "log --all --graph --decorate --oneline" este nos servira solo para un proyecto en git
+git config --global alias.arbolito "log --all --graph --decorate --oneline" este nos servira para todos los proyectos de git ya que esta de forma local
+
+para correr un alias solo debemos poner su nombre por ejemplo [ git arbolito ]
+
+------ahora veremos los tags en git y github------
+
+los tags son etiquetas que nos ayudan a saber en que version estamos trabajando del proyecto por ejemplo la version V0.1 sirve para llevar un control mas detallado del proyecto y las podremos agregar de la siguiente
+manera:
+
+Comandos para trabajar con etiquetas:
+-- Crear un nuevo tag y asignarlo a un commit: git tag -a [nombre-del-tag] [id-del-commit].
+-- Borrar un tag en el repositorio local: git tag -d [nombre-del-tag].
+-- Listar los tags de nuestro repositorio local: git tag o git show-ref --tags.
+-- Publicar un tag en el repositorio remoto: git push origin --tags.
+-- Borrar un tag del repositorio remoto: git tag -d [nombre-del-tag] y git push origin :refs/tags/nombre-del-tag.
+
