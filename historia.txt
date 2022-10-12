@@ -70,3 +70,8 @@ listo con esto ya deberiamos de poder terner funcionando la llave privada y publ
 para cambiar el modo que veniamos usando que es el http y quedarnos con el SSH debemos de hacer el cambio siguiente o haber iniciado usando el SSH :
 
 git remote set-url origin [url del repositorio en git ssh]
+
+
+edicion nueva de la cabezera de header..
+
+veremos como subimos nuevas cabeceras al repocitorio
