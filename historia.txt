@@ -104,3 +104,8 @@ Comandos para trabajar con etiquetas:
 -- Publicar un tag en el repositorio remoto: git push origin --tags.
 -- Borrar un tag del repositorio remoto: git tag -d [nombre-del-tag] y git push origin :refs/tags/nombre-del-tag.
 
+completamos con satisfaccion el curso de git y git hub pero es apenas la punta del iceber necesitare practicar a diario para que no se me olvide al menos lo basico 
+
+vere nuevos videos y emepezare a subir el contenido a mi respositorio en la nube espero sea genial tambien vere la carrera de DEVOPS para manejo de servidores
+
+
